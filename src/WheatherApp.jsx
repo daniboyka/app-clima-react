@@ -36,7 +36,7 @@ del texto y lo guarda en la variable ciudad*/
     y un imput tipo texto donde la funcion handleCambioCiudad q esta 
     en el onChange va a ir guardando lo q se escriba es ese campo de
     texto */}
-      <h1>danu</h1>
+      <h1>App de Clima React</h1>
       <form className="container" onSubmit={handleSubmit}>
         <input type="text" value={ciudad} onChange={handleCambioCiudad} />
         <button type="submit">buscar</button>
